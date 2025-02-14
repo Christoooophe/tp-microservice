@@ -1,0 +1,65 @@
+[
+  {
+    "ContainingType": "Borrowing.Controllers.BorrowingsController",
+    "Method": "GetBorrowings",
+    "RelativePath": "api/Borrowings",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Borrowing.Controllers.BorrowingsController",
+    "Method": "AddStock",
+    "RelativePath": "api/Borrowings",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "item",
+        "Type": "Borrowing.Models.Borrowings",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Borrowing.Controllers.BorrowingsController",
+    "Method": "UpdateStock",
+    "RelativePath": "api/Borrowings/{productId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "productId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updatedItem",
+        "Type": "Borrowing.Models.Borrowings",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Borrowing.Controllers.BorrowingsController",
+    "Method": "DeleteStock",
+    "RelativePath": "api/Borrowings/{productId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "productId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
